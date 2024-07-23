@@ -20,12 +20,23 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-wrap justify-center">
       {data?.categories.map((category, index) => (
-        <div key={index}>
-          <h3>{category.strCategory}</h3>
-          <p>{category.strCategoryDescription}</p>
-          <img src={category.strCategoryThumb} alt={category.strCategory} />
+        <div
+          key={index}
+          className="bg-yellow-500 shadow-md rounded-lg overflow-hidden m-6 max-w-xs"
+        >
+          <img
+            className="w-full h-58 "
+            src={category.strCategoryThumb}
+            alt={category.strCategory}
+          />
+          <div className="p-4">
+            <h3 className="text-black font-mono text-3xl ">
+              {category.strCategory}
+            </h3>
+            {/* <p className="text-gray-700">{category.strCategoryDescription}</p> */}
+          </div>
         </div>
       ))}
     </div>
