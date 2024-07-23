@@ -8,7 +8,7 @@ export const moviesData = [
     title: 'AVATAR',
     budget: '$1m',
     poster: 'https://c4.wallpaperflare.com/wallpaper/810/33/235/movies-avatar-1680x1050-entertainment-movies-hd-art-wallpaper-preview.jpg',
-    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi id cumque provident ipsa, ullam ab sint vero aliquam harum saepe veniam sed consequatur exercitationem perspiciatis nam nostrum. Ipsam, repudiandae data1'
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi id cumque provident ipsa, ullam ab sint vero aliquam harum saepe veniam sed consequatur exercitationem perspiciatis nam nostrum. Ipsam, repudiandae data 1'
   },
   {
     id: 2,
@@ -29,6 +29,6 @@ export const moviesData = [
     title: '1971',
     budget: '$1m',
     poster: 'https://i.ebayimg.com/images/g/GtEAAOSw1W9eN1cY/s-l1600.jpg',
-    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi id cumque provident ipsa, ullam ab sint vero aliquam harum saepe veniam sed consequatur exercitationem perspiciatis nam nostrum. Ipsam, repudiandae data 3'
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi id cumque provident ipsa, ullam ab sint vero aliquam harum saepe veniam sed consequatur exercitationem perspiciatis nam nostrum. Ipsam, repudiandae data 4'
   },
 ];
